@@ -1,0 +1,334 @@
+@CHARSET "ISO-8859-1";
+
+/*Container*/
+div.container {
+	height: 100%;
+	font-family: Lucidia Grande;
+	margin:0;
+	padding:0;
+}
+/*Header formatting*/
+div.header {
+	background-color: #191919;
+	color: #CC9933;
+	font-style: oblique;
+	font-size: 2.90em;
+	text-align: center;
+}
+
+div.header2 {
+	color: #808080;
+	background-color: #FFFFFF;
+	font-size: 2.10em;
+	text-align: center;
+}
+
+div.header3 { 
+	font-size: 1.40em;
+}
+/*end header formatting*/
+
+/*table view courses formatting*/
+#tableViewCourses {
+	border: 2px solid #191919;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+}
+
+#tableViewCourses  tr.alt td {
+	background-color: #bdb76b;
+}
+
+#tableViewCourses th {
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #543A09;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+table {
+	padding: 10px;
+	width: 100%;
+}
+
+td {
+	text-align: left;
+}
+
+#nothing {
+	background-color: #ffffff;
+	color: #191919;
+}
+/*end table formatting*/
+
+/*navigation bar*/
+.menuContainer {
+	width: 100%;
+	/*height: 40px;*/
+}
+/*ul.menuBar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li.menuBar {
+	float: left;
+}*/
+a.menuBar:link,a.menuBar:visited {
+	display: block;
+	width: 300px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #808080;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a.menuBar:hover,a.menuBar:active {
+	background-color: #333333;
+}
+/*end nav bar*/
+
+/*add courses top formatting*/
+.tophalfform {
+	float: left;
+	width: 250px;
+	display: block;
+}
+
+/*end add courses top half*/
+
+/*image in add courses formatting*/
+img {
+	opacity: 0.4;
+	filter: alpha(opacity =     40);
+}
+
+img[src="info.png"] {
+	opacity: 1.0;
+	filter: alpha(opacity =     100);
+}
+
+img:hover {
+	opacity: 1.0;
+	filter: alpha(opacity =     100);
+}
+/*end add courses image*/
+
+/*input boxes formatting*/
+input[type="text"]:focus {
+	border: 2px solid;
+	border-color: #CC9933;
+}
+
+input[type="password"]:focus {
+	border: 2px solid;
+	border-color: #CC9933;
+}
+
+input[type="tel"]:focus {
+	border: 2px solid;
+	border-color: #CC9933;
+	border-radius: 2px 2px 2px 2px;
+}
+
+input[type="email"]:focus {
+	border: 2px solid;
+	border-color: #CC9933;
+	border-radius: 2px 2px 2px 2px;
+}
+
+input[type="submit"] {
+	background-color: #CC9933;
+	cursor: pointer;
+	width: 75px;
+	height: 40px;
+	float: right;
+}
+input[type="radio"], [type="checkbox"]{
+	cursor: pointer;
+}
+
+input {
+	border: 1px solid;
+	border-color: grey;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 15px;
+	border-radius: 3px;
+}
+/*end inputs formatting*/
+.buttons {
+	background-color: #CC9933;
+	width: 75px;
+	height: 40px;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	border: 1px solid;
+	border-color: grey;
+	 cursor: pointer;
+}
+
+label[for="createAccount"] {
+	color: #808080;
+	background-color: #FFFFFF;
+	font-size: .75em;
+	position: relative;
+	top: 0;
+	left: 150px;
+}
+
+/*Login box and form*/
+#loginform div {
+	width: 300px;
+}
+
+#loginform [type="submit"] {
+	background-color: #CC9933;
+	width: 147px;
+	height: 40px;
+	float: left;
+	/*margin-top: 5px;*/
+}
+
+#login {
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, .2), 0
+		3px 0 #fff, 0 4px 0 rgba(0, 0, 0, .2), 0 6px 0 #fff, 0 7px 0
+		rgba(0, 0, 0, .2);
+}
+
+#login {
+	position: absolute;
+	left: 1000px;
+	z-index: 1;
+}
+
+/*#login:before :stitching
+{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    border: 1px dashed #ccc;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    -moz-box-shadow: 0 0 0 1px #fff;
+    -webkit-box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #fff;
+}*/
+
+/*formatting for menu buttons*/
+.menubuttons[type="submit"] {
+	background-color: #bdb76b; /*#543A09;*/
+	width: 310px;
+	height: 225px;
+	color: #ffffff;
+	font-size: .80em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Lucidia Grande;
+	font-style: oblique;
+	opacity: 50;
+	filter: alpha(opacity =    50);
+	cursor: pointer;
+}
+/*Menu buttons in home page*/
+div.menuButtons{
+	font-size:2.0em;
+}
+.menubuttons[type="submit"]:hover {
+	opacity: 1.0;
+	filter: alpha(opacity =     100);
+}
+
+div.menu {
+	position: relative;
+	/*top: 0px;
+	left: 130px;*/
+}
+/*end menu button formatting*/
+
+/*login number buttons*/
+button.circle {
+	display: block;
+	width: 55px;
+	height: 55px;
+	border-radius: 66px;
+	border: 4px double #cc9933;
+	font-size: 2em;
+	color: #666;
+	line-height: 10px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	background: #bdb76b;
+}
+
+p.steps { /*font-family: Lucidia Grande; */
+	font-style: oblique;
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+	left: 65px;
+}
+
+div.how {
+	position: relative;
+	top: -600px;
+	left: 650px;
+	width: 25%;
+}
+
+p.how { /*font-family: Lucidia Grande; */
+	font-style: oblique;
+	font-size: 1.5em;
+	position: relative;
+	left: 50px;
+	top: 0px;
+}
+/*end login number buttons*/
+
+/*what box*/
+div.what {
+	width: 35%;
+	border: 1px;
+	position: relative;
+	top: 120px;
+	left: 50px;
+}
+
+p.what { /*font-family: Lucidia Grande; */
+	font-style: oblique;
+	font-size: 1.5em;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+/*end what box*/
+
+/*line image*/
+img[src="lines2.gif"] {
+	position: relative;
+	z-index: -1;
+	top: -150px;
+	left: 175px;
+	/*opacity: 1.0;
+	filter: alpha(opacity =   100);*/
+}
+/*fieldsets*/
+fieldset {
+	background-color: #ffffff;
+}
+
+/*body {
+	background-image: url('plu1.png');
+}*/
